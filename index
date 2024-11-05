@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki Layout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <!-- Substitua a imagem do logo pela sua logo -->
+            <img src="logo.png" alt="Logo" />
+        </div>
+        <ul class="nav">
+            <li><a href="#inicio">Começo do jogo</a></li>
+            <li><a href="#mapa">Mapa com localização</a></li>
+            <li><a href="#quests">Quests</a></li>
+            <li><a href="#sets">Sets e sobre</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <section id="inicio">
+            <h1>Começo do jogo</h1>
+            <p>Aqui você pode adicionar informações sobre o começo do jogo.</p>
+        </section>
+        <section id="mapa">
+            <h1>Mapa com localização</h1>
+            <p>Aqui você pode adicionar informações sobre o mapa e localização.</p>
+        </section>
+        <section id="quests">
+            <h1>Quests</h1>
+            <p>Aqui você pode adicionar informações sobre as quests.</p>
+        </section>
+        <section id="sets">
+            <h1>Sets e sobre</h1>
+            <p>Aqui você pode adicionar informações sobre sets e outros detalhes.</p>
+        </section>
+        <section id="eventos">
+            <h1>Eventos</h1>
+            <p>Aqui você pode adicionar informações sobre eventos.</p>
+        </section>
+    </div>
+</body>
+</html>
